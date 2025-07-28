@@ -15,6 +15,17 @@ if(mysqli_num_rows($run)>0) {
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+        <!-- Navbar -->
+        <div class="navbar">
+        <div class="logo">
+            <img src="Assets/logo.png" alt="Logo"> <!-- Put logo.png in your project folder -->
+            Posting Platform
+        </div>
+        <form action="search.php" method="GET">
+            <input type="text" name="q" placeholder="Search by name">
+            <button type="submit">Search</button>
+        </form>
+    </div>
     <div class="table">
         <table>
             <tr>
