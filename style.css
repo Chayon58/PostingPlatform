@@ -11,7 +11,7 @@ body {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: #007BFF;
+      background-color: sandybrown;
       color: white;
       padding: 10px 20px;
   }
@@ -43,14 +43,15 @@ body {
   .navbar button {
       padding: 6px 12px;
       border: none;
-      background-color: greenyellow;
-      color: black;
+      background-color: blueviolet;
+      color: white;
       border-radius: 10px;
       cursor: pointer;
   }
 
   .navbar button:hover {
       background-color: rgba(172, 255, 47, 0.741);
+      color: black;
   }
 
   /* Form styles */
@@ -75,7 +76,7 @@ body {
 
   button {
       padding: 10px 20px;
-      background-color: #007BFF;
+      background-color: orangered;
       color: white;
       font-size: 16px;
       border: none;
@@ -84,7 +85,7 @@ body {
   }
 
   button:hover {
-      background-color: #0056b3;
+      background-color: blueviolet;
   }
   
 
@@ -97,22 +98,19 @@ body {
     border-radius: 10px;
   }
   
-
   table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
   }
   
-
   th {
-    background-color: #007BFF;
+    background-color: orange;
     color: white;
     padding: 12px;
     text-align: center;
     font-size: 16px;
   }
-  
 
   td {
     padding: 10px;
@@ -126,14 +124,34 @@ body {
     background-color: #f1f1f1;
   }
   
-
   a {
     text-decoration: none;
     color: #007BFF;
     font-weight: bold;
   }
   
-  a:hover {
-    text-decoration: underline;
-    color: #0056b3;
-  }
+  .btn {
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.update-btn {
+    background-color: blueviolet; /* Green */
+    color: white;
+}
+
+.delete-btn {
+    background-color: #dc3545; /* Red */
+    color: white;
+}
+
+.btn:hover {
+    background-color: gold;
+    color: black;
+    opacity: 0.9;
+}
