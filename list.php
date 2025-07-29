@@ -38,8 +38,8 @@ if(mysqli_num_rows($run)>0) {
                 <td><?= $row['uname'] ?></td>
                 <td><?= $row['posts'] ?></td>
                 <td>
-                    <a href="update.php?id=<?=$row['id'] ?>">Update</a> |
-                    <a href="delete.php?id=<?=$row['id'] ?>">Delete</a> 
+                    <a class="btn update-btn" href="update.php?id=<?= $row['id'] ?>">Update</a>
+                    <a class="btn delete-btn" href="delete.php?id=<?= $row['id'] ?>">Delete</a>
                 </td>
             </tr>
             <?php } ?>
